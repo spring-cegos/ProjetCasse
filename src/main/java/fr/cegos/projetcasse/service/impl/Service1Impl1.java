@@ -3,10 +3,12 @@ package fr.cegos.projetcasse.service.impl;
 
 import fr.cegos.projetcasse.service.Service1;
 import fr.cegos.projetcasse.service.Service2;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-
+@Service
 public class Service1Impl1 implements Service1 {
-
+    @Autowired
     private Service2 service2;
 
     @Override

@@ -18,9 +18,10 @@ public class DisplayComponent {
      * @param service1
      * @param service2
      */
-    public DisplayComponent(Service1 service1, Service2 service2) {
+    public DisplayComponent(Service1 service1, Service2 service2, Service3 service3) {
         this.service1 = service1;
         this.service2 = service2;
+        this.service3 = service3;
     }
 
     @PostConstruct
